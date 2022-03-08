@@ -91,7 +91,7 @@ const int      RPC_DEFAULT_PORT                              = 61825;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
-
+const uint64_t CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 0x8b404; // addresses start with "PEN"
 const size_t   P2P_CONNECTION_MAX_WRITE_BUFFER_SIZE          = 16 * 1024 * 1024; // 16 MB
 const uint32_t P2P_DEFAULT_CONNECTIONS_COUNT                 = 8;
 const size_t   P2P_DEFAULT_WHITELIST_CONNECTIONS_PERCENT     = 70;
